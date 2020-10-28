@@ -1,4 +1,4 @@
-# Strategy Pattern #
+# Strategy Pattern 策略模式 #
 個人理解 
 ----------------
     在沒有使用Strategy Pattern的情況下

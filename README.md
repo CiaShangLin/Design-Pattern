@@ -6,3 +6,5 @@
 -----------
 [Decorator Pattern 裝飾子模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Decorator_Pattern)
 -----------
+[Factory Pattern 工廠模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Factory_Pattern)
+-----------

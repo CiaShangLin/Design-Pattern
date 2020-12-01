@@ -14,4 +14,12 @@ public class SingletonJava {
         }
         return mSingletonJava;
     }
+
+    public void a(){
+
+    }
+
+    public void b(){
+
+    }
 }

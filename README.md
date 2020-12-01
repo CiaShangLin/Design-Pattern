@@ -8,3 +8,5 @@
 -----------
 [Factory Pattern 工廠模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Factory_Pattern)
 -----------
+[Singleton Pattern 單例模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Singleton_Pattern)
+-----------

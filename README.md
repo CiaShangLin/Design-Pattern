@@ -10,3 +10,5 @@
 -----------
 [Singleton Pattern 單例模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Singleton_Pattern)
 -----------
+[Commend Pattern 單例模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Commend_Pattern)
+-----------

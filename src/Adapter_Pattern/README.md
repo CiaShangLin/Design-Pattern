@@ -15,7 +15,7 @@
     這樣的問題在哪？假設有N種插頭M種插座，每當你新增了一種插頭或是插座，所有的插頭就要再多實作一個介面，自身也要實作所有插頭的
     介面，這樣相同的程式碼一堆也不符合單一職責。
 
-    這個插座和插頭的範例,有點不知道是插頭依賴插座,還是插座依賴插頭,以後再想想
+    應該是電器依賴插頭,插頭依賴插座才對
 參考連結
 ---------------
 <a href="https://www.youtube.com/watch?v=2PKQtcJjYvc&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=8">https://www.youtube.com/watch?v=2PKQtcJjYvc&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=8

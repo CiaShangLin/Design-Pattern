@@ -1,6 +1,6 @@
 package Adapter_Pattern
 
-import Adapter_Pattern.Adapter.ThreeToTwoPlugAdapter
+import Adapter_Pattern.Adapter.TwoToThreeSocketAdapter
 import Adapter_Pattern.Plug.ThreePingPlug
 import Adapter_Pattern.Plug.TwoPingPlug
 import Adapter_Pattern.Socket.ThreePingPlugSocket
@@ -10,25 +10,22 @@ fun main() {
 
     //3Ping插頭
     val threePingPlug = ThreePingPlug()
-    threePingPlug.input()
+    val threePingPlugSocket = ThreePingPlugSocket()
+    println(threePingPlug.getPower())
+    threePingPlug.insertSocket(threePingPlugSocket)
+    println(threePingPlug.getPower())
 
-    //插入3Ping插座
-    val threePingPlugSocket = ThreePingPlugSocket(threePingPlug)
-    threePingPlugSocket.returnPower()
 
     //2Ping插頭
     val twoPingPlug = TwoPingPlug()
-    twoPingPlug.input()
+    val twoPingPlugSocket = TwoPingPlugSocket()
+    println(twoPingPlug.getPower())
+    twoPingPlug.insertSocket(twoPingPlugSocket)
+    println(twoPingPlug.getPower())
 
-    //插入2Ping插座
-    var twoPingPlugSocket = TwoPingPlugSocket(twoPingPlug)
-    twoPingPlugSocket.returnPower()
+    //轉接器
+    val twoToThreeSocketAdapter = TwoToThreeSocketAdapter(twoPingPlugSocket)
+    threePingPlug.insertSocket(twoToThreeSocketAdapter)
+    println(threePingPlug.getPower())
 
-    //3Ping插頭插入2Ping轉接器
-    val threeToTwoPlugAdapter = ThreeToTwoPlugAdapter(threePingPlug)
-    threeToTwoPlugAdapter.input()
-
-    //轉接器插入2Ping插座
-    twoPingPlugSocket = TwoPingPlugSocket(threeToTwoPlugAdapter)
-    twoPingPlugSocket.returnPower()
 }

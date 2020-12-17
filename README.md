@@ -16,3 +16,5 @@
 -----------
 [Facade Pattern 轉換器模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Facade_Pattern)
 -----------
+[Proxy Pattern 代理人模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Proxy_Pattern)
+-----------

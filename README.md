@@ -18,3 +18,5 @@
 -----------
 [Proxy Pattern 代理人模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Proxy_Pattern)
 -----------
+[Bridge Pattern 橋接模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Bridge_Pattern)
+-----------

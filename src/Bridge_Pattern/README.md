@@ -19,3 +19,5 @@
 參考連結
 ---------------
 <a href="https://www.youtube.com/watch?v=F1YQ7YRjttI&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=11">https://www.youtube.com/watch?v=F1YQ7YRjttI&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=11
+
+![UML](../scr/Bridge_Pattern/uml.png)

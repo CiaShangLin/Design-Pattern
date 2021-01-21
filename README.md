@@ -20,3 +20,5 @@
 -----------
 [Bridge Pattern 橋接模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Bridge_Pattern)
 -----------
+[Composite Pattern 組合模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Composite_Pattern)
+-----------

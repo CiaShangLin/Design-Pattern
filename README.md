@@ -22,3 +22,5 @@
 -----------
 [Composite Pattern 組合模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/Composite_Pattern)
 -----------
+[State Pattern 組合模式](https://github.com/CiaShangLin/Design-Pattern/tree/master/src/State_Pattern)
+-----------
